@@ -10,5 +10,13 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-course';
+  data = {
+  title: 'The No Clicking Game',
+    displayMessage: 'No Clicking!'
+}
+
+onLogoClicked() {
+    alert('Naughty, naughty...');
+}
+
 }
