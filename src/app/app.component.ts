@@ -19,4 +19,8 @@ onLogoClicked() {
     alert('Naughty, naughty...');
 }
 
+onKeyUp(newTitle:string){
+    this.data.title = newTitle;
+}
+
 }

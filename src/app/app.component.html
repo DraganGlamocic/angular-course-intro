@@ -6,4 +6,4 @@
        alt="Angular Logo" src="https://t4.ftcdn.net/jpg/01/33/60/31/360_F_133603181_G3XNt0KhyFTuOK7hFfBuzQvlRM4wvo01.jpg">
 </div>
 
-<input class="demo" [value]="data.displayMessage" #titleInput >
+<input class="demo" (keyup)="onKeyUp(titleInput.value)" [value]="data.displayMessage" #titleInput >
